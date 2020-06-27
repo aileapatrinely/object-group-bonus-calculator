@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Bonus Calculator Object Challenge</title>
+    <script src="jquery.min.js" charset="utf-8"></script>
     <script src="client.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <h1>Bonus Calculator Object Challenge</h1>
+    <h2>Employee Info</h2>
+    <button class="button" id="totalMoneyButton">Total Money</button>
+    <table style="width: 100%;">
+      <thead>
+        <tr id="employeeInfo"></tr>
+        <th>Employee Name</th>
+        <th>Employee Number</th>
+        <th>Employee Annual Salary</th>
+        <th>Employee Ratings</th>
+        <th>Employee Bonus Percentage</th>
+        <th>Employee Total Bonus</th>
+        <th>Employee Total Compensation</th>
+      </thead>
+      <tbody id="js-table-body"></tbody>
+    </table>
   </body>
 </html>
